@@ -3,25 +3,30 @@
   "description": "jQuery-like API super-tiny JavaScript library",
   "version": "1.1.0",
   "author": {
-    "name": "Denis Ciccale",
-    "email": "dciccale@gmail.com",
-    "url": "@tdecs"
+    "name": "Atmos4",
+    "email": "atmos4.dev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dciccale/ki.js.git"
+    "url": "https://github.com/Atmos4/ki.js.git"
   },
   "bugs": {
-    "url": "http://github.com/dciccale/ki.js/issues"
+    "url": "http://github.com/Atmos4/ki.js/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }],
-  "dependencies" : {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {},
+  "module": "index.ts",
+  "type": "module",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-git-committers": "~0.1.2"
+    "@types/bun": "latest",
+    "terser": "^5.34.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
